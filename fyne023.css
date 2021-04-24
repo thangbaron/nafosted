@@ -1,0 +1,104 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	height: 789px;
+	background-color: #fff;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+.container .left{
+	width: 26%;
+	height: 730px;
+	background-color: #0270CF;
+	float: left;
+}
+.container .right{
+	width: 74%;
+	height: 730px;
+	/*background-color: #ccc;*/
+	float: right;
+}
+.container .left .logo{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	/*background-color: yellow;*/
+	margin-top: 35px;
+}
+.container .left .logo img{
+
+	width: 200px;
+	height: 200px;
+}
+.container .left h3{
+	padding: 10px 20px;
+	color: white;
+	text-transform: uppercase;
+	text-align:center;
+}
+.container .left .banner1{
+	width: 280px;
+	height: 130px;
+	background-color: red;
+	display: block;
+	margin-top: 20px;
+	margin-left: 29px;
+}
+.container .left .banner2{
+	width: 280px;
+	height: 130px;
+	background-color: red;
+	display: block;
+	margin-top: 20px;
+	margin-left: 29px;
+}
+.container .left .banner3{
+	width: 280px;
+	height: 130px;
+	background-color: red;
+	display: block;
+	margin-top: 20px;
+	margin-left: 29px;
+}
+.container .right .logo2 img{
+	margin-top: 0px;
+	width: 1000px;
+	height: 720px;
+	opacity: .2;
+	position: relative;
+}
+.container .right .logo2 h1{
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+}
+.container .right h1 {
+	padding-top: 150px;
+	padding-left: 230px;
+	color: #0270CF;
+}
+.container .right .logo2 h2{
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+}
+.container .right h2 {
+	padding-top: 200px;
+	padding-left: 325px;
+	color: #0270CF;
+}
+.container .right .logo2 p{
+	position: absolute;
+	text-align: center;
+}
+.container .right p{
+	padding-top: 260px;
+	padding-left: 420px;
+	color: #82919F;
+}
+
+

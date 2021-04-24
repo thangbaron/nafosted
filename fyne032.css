@@ -1,0 +1,467 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#htm{
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 90%;
+	background-color:#fff;
+	height:3600px;
+}
+a{
+	 text-decoration: none;
+	 color: black;
+	 text-align-last: left;
+}
+.domain{
+	height:150px; 
+}
+.logo img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 130px;
+	background-color: #0054a6;
+}
+.icon01 img{
+	margin-top: 24px;
+	display: flex;
+	float: right;
+	margin-right: 1px;
+}
+.icon02 img{
+	margin-top: 24px;
+	display: flex;
+	float: right;
+	margin-right: 10px;
+	border-right: 1px solid #175890;
+}
+.email p a{
+	margin-top: 20px;
+	display: flex;
+	float: right;
+	margin-right: 5px;
+	font-size: 17px;
+	color:  #1f81b9;
+}
+.email a:hover{
+	color: black;
+	cursor: pointer;
+}
+.email1 p a{
+	margin-top: 20px;
+	display: flex;
+	float: right;
+	margin-right: 5px;
+	font-size: 17px;
+	text-transform: capitalize;
+	color:  #1f81b9;
+}
+.email1 a:hover{
+	color: black;
+	cursor: pointer;
+}
+.email2 p a{
+	margin-top: 20px;
+	display: flex;
+	float: right;
+	margin-right: 5px;
+	font-size: 17px;
+	text-transform: capitalize;
+	color:  #1f81b9;
+}
+.email2 a:hover{
+	color: black;
+	cursor: pointer;
+}
+.button .search_button img{
+	margin-top: 10px;
+	margin-right: 1px;
+	display: flex;
+	float: right;
+	clear: right;
+	background-color: #175890;
+}
+.search_button a:hover{
+	color:#175890;
+}
+.seach input{
+	margin-top: 10px;
+	margin-right: 1px;
+	display: flex;
+	float: right;
+	width: 200px;
+	height: 20px;
+}
+.container{
+	height: 35px;
+	width: 100%;
+	margin-top: 50px auto;
+	background-color: #2f669b;
+}
+
+.container img{
+	padding: 0;
+	margin-right: 5px;
+}
+.container ul.root {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+.container ul.root > li{
+	float: left;
+	border-right: 1px solid #fff;
+	height: 35px;
+	position: relative;
+}
+.container ul.root > li > a {
+	float: left;
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	line-height: 35px;
+	padding: 0px 20px 0px 20px;
+}	
+.container ul.root > li > a:hover{
+	background:#0B3860;
+	transition: ease-in 0.35s;
+	-moz-transition:ease-in 0.35s;
+	-webkit-transition:ease-in 0.35s;
+}
+
+.container ul.root > li:hover > ul.sub{
+	display: block;
+	transition: ease-in 0.35s;
+	-moz-transition:ease-in 0.35s;
+	-webkit-transition:ease-in 0.35s;
+}
+.container ul.root > li ul.sub {
+	margin:0;
+	padding:0;
+	width: 285px;
+	list-style-type: none;
+	background:#2f669b;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	display: none;
+}
+
+.container ul.root > li ul.sub > li{
+	width: 285px;
+	position: relative;
+}
+.container ul.root > li > ul.sub > li a{
+	font-size: 14px;
+	display: block;
+	color: #FFF;
+	line-height: 35px;
+	text-decoration: none;
+	text-indent: 20px;
+	border-top: 1px solid #999;
+	transition: ease-in 0.35s;
+	-moz-transition:ease-in 0.35s;
+	-webkit-transition:ease-in 0.35s;
+}
+
+.container ul.root > li > ul.sub > li a:hover{
+	background: #0B3860;
+}
+
+.container ul.root > li ul.sub > li > ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	position: absolute;
+	width: 285px;
+	background:#0B3860;
+	left: 285px;
+	top:0px;
+	display: none;
+}
+
+.container ul.root > li ul.sub > li:hover > ul {
+	display: block;
+	transition: ease-in 0.35s;
+	-moz-transition:ease-in 0.35s;
+	-webkit-transition:ease-in 0.35s;
+	background-color: #2f669b;
+	color:#0B3860;
+}
+.tpa{
+	float: left;
+	width: 69%;
+	height: 3250px;
+	/*background-color: green;*/
+	margin-top: 25px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	display: inline-block;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	list-style-position: inside;
+	box-shadow: 1px 1px #ccc;
+	margin-bottom: 1px;
+}
+.tpa div{
+	text-shadow: 2px 2px #ccc;
+	border-radius: 1px solid #ccc;
+}
+.basic1 h4{
+	line-height: 40px;
+	height: 40px;
+	width:784px;
+	background-color: #175890;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 20px;
+	color: white;
+}
+.basic2 h5{
+	padding: 5px 5px;
+	text-align: center;
+}
+.basic2 h4{
+	padding: 20px 5px;
+	text-align: center;
+}
+.basic2 a:hover{
+	color:  #175890;
+	text-decoration: underline #175890;
+}
+.basic2 a {
+	color:  #175890;
+	margin-left:190px;
+}
+.basic2 p{
+	padding: 10px 20px;
+}
+.basic3 a{
+	color:  #175890;
+}
+.basic3 a:hover{
+	color:  #175890;
+	text-decoration: underline #175890;
+}
+.basic3 ol{
+	padding-left: 20px;
+}
+.basic3 ol li ol li{
+	list-style-type: decimal-leading-zero;
+}
+.basic3 ol li ol li {
+	list-style-type: lower-alpha;
+}
+.basic4 ul{
+	padding-left: 20px;
+}
+.basic4 ul li{
+	list-style-type: square;
+
+}
+
+.html1{
+	height: 450px;
+	width: 340px;
+	display: inline-block;
+	margin-top: 25px;
+	float:right;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	list-style-position: inside;
+	box-shadow: 1px 1px #ccc;
+}
+.html1 h3{
+	padding: 5px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	text-transform: uppercase;
+	background-color: #016aa5;
+	color: white;
+}
+.html1 ul li {
+
+	border-bottom: 1px solid #ccc;
+	text-align: justify;
+	text-indent: 1px;
+	text-align-last: left;
+	padding: 20px 1px;
+	list-style-type: square;
+}
+.html1 a{
+	color: #1d5082;
+}
+.html1 li:last-child{
+	border-bottom: none;
+}
+.html1 li{
+	color:#1d5082 ;
+}
+.html1 ul li a:hover{
+	text-decoration: underline #1d5082;
+}
+.html02{
+	height: 250px;
+	width: 340px;
+	display: inline-block;
+	float:right;
+	margin-top: 25px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	box-shadow: 1px 1px #ccc;
+}
+.html02 h3{
+	padding: 5px;
+	padding-left: 5px;
+	border-bottom: 1px solid #ccc;
+	background-color:#016aa5;
+	color: white;
+}
+.html2 {
+	height: 215px;
+	width: 340px;
+	margin:auto 0;
+	display: inline-block;
+	float: right;
+	margin-top: 1px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin-bottom: 1px;
+}
+.html2 img{
+	margin: 0 auto;
+	height: 214px;
+	width: 340px;
+	background-repeat: no-repeat;
+}
+.html3 {
+	display: inline-block;
+	float: right;
+	clear: right;
+	margin-top: 25px;
+	height: 300px;
+	width: 340px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	box-shadow: 1px 1px #ccc;
+}
+.html3 h3{
+	border-bottom: 1px solid #ccc;
+	padding-left: 5px;
+	color:white;
+	background-color: #016aa5;
+	text-transform: capitalize;
+	padding: 5px;
+}
+.html3 p{
+	padding-left: 6px;
+	margin-top: 1px;
+	padding: 5px;
+}
+.html3 h4{
+	margin-left: 14px;
+	color: black;
+	padding: 3px;
+}
+.checkbox1{
+	margin-top: 8px;
+	padding: 1px;
+	margin-left: 20px;
+	float: left;
+	display: flex;
+}
+.item1{
+
+	padding: 1px;
+	float: left;
+	display: flex;
+	margin-left: 5px;
+}
+.checkbox2{
+	float: left;
+	display: flex;
+	clear: left;
+	padding: 1px;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+.item2{
+	padding: 1px;
+	margin-left: 5px;
+	float: left;
+	display: flex;
+}
+.checkbox3{
+	float: left;
+	display: flex;
+	clear: left;
+	padding: 1px;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+.item3{
+	margin-left: 5px;
+	padding: 1px;
+	float: left;
+	display: flex;
+}
+.checkbox4{
+	float: left;
+	display: flex;
+	clear: left;
+	padding: 1px;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+.item4{
+	padding: 1px;
+	float: left;
+	display: flex;
+	margin-left: 5px;
+}
+.html04{
+	width: 82px;
+	height:30px;
+	line-height: 30px;
+	/*background-color: red;*/
+	float: left;
+	clear: left;
+	margin-left: 120px;
+	margin-top: 15px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.html05 {
+	height:	28px;
+	width: 80px;
+	line-height: 28px;
+	clear: left;
+	text-align: center;
+	background-color: #1a508d;
+	margin-left: 1px;
+	margin-top:0px;
+
+}
+.html05 p{
+	font-size: 15px;
+	padding-top: 1px;
+	text-align: center;
+}
+.html05 p a{
+	color: white;
+}
